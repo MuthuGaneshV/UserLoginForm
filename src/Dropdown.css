@@ -1,0 +1,36 @@
+.dropdown {
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    
+}
+
+.dropdown-menu{
+    width: 20rem;
+    text-align: center;
+    color: black;
+    background: lightgrey;
+    position: relative;
+    cursor: pointer;
+    padding: 2rem;
+}
+.dropdown-menu:hover{
+    color: white;
+    background: grey;
+}
+.dropdown-list{
+    list-style-type: none;
+    position: absolute;
+    bottom: -rem;
+    left: 0;
+    width: 100%;
+    background: grey;
+}
+.dropdown-list>li{
+    border:1px solid transparent;
+}
+.dropdown-list>li:hover{
+    border:1px solid white;
+}
